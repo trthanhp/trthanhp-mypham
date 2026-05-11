@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <title>Mỹ Phẩm AgarWood - Full Website</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .wrapper {
+            width: 800px;
+            margin: 0 auto;
+            background-color: #4a001a;
+            border: 1px solid #66001a;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+
+        .header {
+            position: relative;
+            height: 120px;
+            background-color: #4a001a;
+            overflow: hidden;
+        }
+
+        .logo-main {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            height: 110px;
+            z-index: 10;
+        }
+
+        .my-pham-text {
+            position: absolute;
+            top: 2px;
+            left: 111px;
+            z-index: 10;
+            height: 119px;
+            width: 188px;
+        }
+
+        .banner-bg {
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 120px;
+        }
+
+       
+        .nav-bar {
+            background-color: #ff9900;
+            padding: 8px 0;
+            text-align: center;
+            font-size: 12px;
+            font-weight: bold;
+            color: #fff;
+            border-top: 1px solid #fff;
+            border-bottom: 1px solid #fff;
+        }
+        .nav-bar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 12px;
+        }
+        .nav-bar a:hover { text-decoration: underline; }
+
+        
+        .main-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .sidebar {
+            width: 200px;
+            vertical-align: top;
+            padding: 20px 10px;
+            background-color: #5a0020;
+        }
+
+        .menu-v {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .menu-v li { margin-bottom: 5px; }
+        .menu-v img {
+            width: 180px;
+            display: block;
+            cursor: pointer;
+        }
+
+        .form-box {
+            text-align: center;
+            margin-top: 25px;
+            color: white;
+            font-size: 13px;
+        }
+        .form-box input {
+            width: 160px;
+            margin-bottom: 8px;
+            padding: 4px;
+            border: none;
+        }
+        .btn-submit {
+            background: linear-gradient(to bottom, #a03030, #601010);
+            color: white;
+            border: 1px solid #fff;
+            padding: 5px 15px;
+            cursor: pointer;
+        }
+
+        .main-content {
+            padding: 30px;
+            background-color: #4a001a;
+            color: white;
+            vertical-align: top;
+        }
+
+        .content-title {
+            color: #fff;
+            border-bottom: 1px solid #888;
+            padding-bottom: 10px;
+            text-transform: uppercase;
+            margin-top: 0;
+            font-size: 24px;
+        }
+
+       
+        .product-row {
+            display: flex;
+            margin-bottom: 25px;
+            align-items: flex-start;
+        }
+        .product-img-box {
+            width: 110px;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        .product-img-box img {
+            width: 100%;
+            border: 1px solid #999;
+            background-color: #fff;
+            padding: 2px;
+        }
+        .product-desc h3 {
+            color: #ffcc00;
+            margin: 0 0 5px 0;
+            font-size: 16px;
+        }
+        .product-desc p {
+            margin: 0;
+            line-height: 1.5;
+            text-align: justify;
+            font-size: 14px;
+        }
+
+        
+        .footer {
+            background-color: #3d0016;
+            color: #aaa;
+            text-align: center;
+            padding: 15px;
+            font-size: 11px;
+            border-top: 1px solid #66001a;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="header"> 
+        <img src="Images/logo.jpg" class="logo-main" alt="Logo"> 
+        <img src="Images/my_pham.gif" class="my-pham-text" alt="MYPHAM.com"> 
+        <img src="Images/banner.gif" class="banner-bg" alt="Banner">
+    </div>
+
+    <div class="nav-bar">
+      <a href="TRANG CHU.html">TRANG CHỦ</a> | <a href="SP.html">GIỚI THIỆU</a> | <a href="SP1.html">SẢN PHẨM</a> | 
+      <a href="#">HỎI ĐÁP</a> | <a href="#">TƯ VẤN</a> | <a href="#">GIỎ HÀNG</a> | <a href="#">LIÊN HỆ</a>
+    </div>
+
+    <table class="main-table">
+        <tr>
+            <td class="sidebar">
+              <ul class="menu-v">
+                    <li><img src="Images/trang_diem_over.gif"></li>
+                    <li><img src="Images/duong_da_over.gif"></li>
+                    <li><img src="Images/nuoc_hoa_over.gif"></li>
+                    <li><img src="Images/duong_toc_over.gif"></li>
+                    <li><img src="Images/duong_the_over.gif"></li>
+                    <li><img src="Images/nam_gioi_over.gif"></li>
+                </ul>
+                <img src="Images/tuongtrung.jpg" width="156" style="margin-top: 20px;">
+                <div class="form-box">
+                    <input type="text" placeholder="Tìm kiếm...">
+                    <button class="btn-submit">Tìm kiếm</button>
+                    <div style="margin-top: 35px;">
+                        Đăng nhập<br>
+                        <input type="text"><br>
+                        Mật khẩu<br>
+                        <input type="password"><br>
+                        <button class="btn-submit">Đăng nhập</button>
+                    </div>
+              </div>
+            </td>
+            
+            <td class="main-content">
+               
+
+                <div style="clear: both;"></div>
+
+                <h2 class="content-title">CÁC SẢN PHẨM</h2>
+                
+                <div class="product-row">
+                    <div class="product-img-box"><img src="Images/sp1.jpg"></div>
+                    <div class="product-desc">
+                        Các bộ dưỡng da cao cấp
+                        <p>Nhờ thành phần chiết xuất từ thiên nhiên, sử dụng những bộ dưỡng da cao cấp là phương pháp dưỡng da tối ưu nhất giúp giảm lão hóa và bảo vệ cho da.</p>
+                    </div>
+                </div>
+
+                <div class="product-row">
+                    <div class="product-img-box"><img src="Images/sp2.jpg"></div>
+                    <div class="product-desc">
+                       Các loại mặt nạ
+                        <p>Khi sử dụng các bộ dưỡng da nên dùng kèm theo 1 loại mặt nạ phù hợp với da bởi mặt nạ sẽ giúp làm sạch sâu, giúp bổ sung thêm chất nuôi dưỡng da, giúp tăng tính đàn hồi săn chắc cho da.</p>
+                    </div>
+                </div>
+
+                <div class="product-row">
+                    <div class="product-img-box"><img src="Images/sp3.jpg"></div>
+                    <div class="product-desc">
+                        Mỹ phẩm cao cấp đặc trị
+                        <p>Điều mà mọi người mong muốn là được trang điểm đẹp song trang điểm luôn phải được ý thức là có hai mục đích: làm đẹp và bảo vệ da</p>
+                    </div>
+                </div>
+
+                <div class="product-row">
+                    <div class="product-img-box"><img src="Images/sp4.jpg"></div>
+                    <div class="product-desc">
+                       AHA 22.000 (Essence đặc trị)
+                        <p>Là tinh dầu thực vật dạng đặc trị, với thành phần dinh dưỡng ưu tú đây là sản phẩm có khả năng tối ưu nuôi dưỡng tế bào da, tác động mạnh đến quá trình cấu tạo tế bào da, giảm sự phát sinh nếp nhăn, xóa đi các vết thâm (do trứng cá để lại) và giảm hiện trạng phát sinh nám trên da, giảm sự phát sinh trứng cá trên da.</p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <div class="footer">
+        Trang web được xây dựng bởi T3H Corp, 2026 ©
+    </div>
+</div>
+
+</body>
+</html>
